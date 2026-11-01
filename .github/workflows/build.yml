@@ -1,0 +1,37 @@
+name: Experimental native bundles
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  native:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-22.04, windows-latest, macos-14]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.13.6"
+          enable-cache: true
+      - name: Linux build dependencies
+        if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y patchelf ccache libegl1 libopengl0 libxkbcommon-x11-0 libxcb-cursor0
+      - run: uv sync --locked --group build
+      - run: uv run pytest -m "not gui"
+      - name: Compile native bundle on its target OS
+        run: uv run python scripts/build.py
+      - name: Verify packaged resources and library launch
+        env:
+          QT_QPA_PLATFORM: offscreen
+          QT_QUICK_BACKEND: software
+        run: uv run python scripts/verify_bundle.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: epubify-experimental-${{ runner.os }}
+          path: |
+            dist/*.dist/**
+            dist/*.app/**
+          if-no-files-found: error

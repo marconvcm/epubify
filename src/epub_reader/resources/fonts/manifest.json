@@ -1,0 +1,59 @@
+{
+  "revision": "6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec",
+  "files": [
+    {
+      "family": "IBM Plex Sans",
+      "file": "ibm-plex-sans/IBMPlexSans.ttf",
+      "sha256": "3b031aa4216174205bd8471f88a49b91f093169e9e87bd5262242bc5967fe2e3",
+      "source": "https://github.com/google/fonts/blob/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/ibmplexsans/IBMPlexSans[wdth,wght].ttf"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "file": "ibm-plex-sans/IBMPlexSans-Italic.ttf",
+      "sha256": "0b94c5e981993764db32bf9c610ecc60cbd34ad77ec2f10ba03c64ab75124d8e",
+      "source": "https://github.com/google/fonts/blob/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/ibmplexsans/IBMPlexSans-Italic[wdth,wght].ttf"
+    },
+    {
+      "family": "Playfair Display",
+      "file": "playfair-display/PlayfairDisplay.ttf",
+      "sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6",
+      "source": "https://github.com/google/fonts/blob/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playfairdisplay/PlayfairDisplay[wght].ttf"
+    },
+    {
+      "family": "Playfair Display",
+      "file": "playfair-display/PlayfairDisplay-Italic.ttf",
+      "sha256": "a5e26dc5e2e77fb2803a0bf02fd4f81ee136ec8dea863ccdb0c59a263b21378b",
+      "source": "https://github.com/google/fonts/blob/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playfairdisplay/PlayfairDisplay-Italic[wght].ttf"
+    },
+    {
+      "family": "JetBrains Mono",
+      "file": "jetbrains-mono/JetBrainsMono.ttf",
+      "sha256": "48715a42ec242c21e9f02692891e147d022299a52e48d5e413e1a942193ffeda",
+      "source": "https://github.com/google/fonts/blob/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/jetbrainsmono/JetBrainsMono[wght].ttf"
+    },
+    {
+      "family": "JetBrains Mono",
+      "file": "jetbrains-mono/JetBrainsMono-Italic.ttf",
+      "sha256": "85ae2a5cd3f56baf1ce1c21a851322c58e3d8fbe8e8ad4a4d090a820dd7fe558",
+      "source": "https://github.com/google/fonts/blob/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/jetbrainsmono/JetBrainsMono-Italic[wght].ttf"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "file": "ibm-plex-sans/OFL.txt",
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "source": "https://github.com/google/fonts/blob/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/ibmplexsans/OFL.txt"
+    },
+    {
+      "family": "Playfair Display",
+      "file": "playfair-display/OFL.txt",
+      "sha256": "566be814f8e96e93dfa16101331557eb6b5467e9e03f627c0910fe93ca12300e",
+      "source": "https://github.com/google/fonts/blob/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playfairdisplay/OFL.txt"
+    },
+    {
+      "family": "JetBrains Mono",
+      "file": "jetbrains-mono/OFL.txt",
+      "sha256": "b2fe5e8987594e9ffd1d2ca52a2f5d73eb8335243893c5d6254b5ad69269591d",
+      "source": "https://github.com/google/fonts/blob/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/jetbrainsmono/OFL.txt"
+    }
+  ]
+}

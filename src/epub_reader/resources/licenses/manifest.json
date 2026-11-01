@@ -1,0 +1,40 @@
+{
+  "cryptography": {
+    "version": "50.0.2",
+    "files": {
+      "LICENSE": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb",
+      "LICENSE.APACHE": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe",
+      "LICENSE.BSD": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb"
+    }
+  },
+  "websockets": {
+    "version": "17.4",
+    "files": {
+      "LICENSE": "3d6a0c050d8bec52fabad502e45fb25bd02bcadbd70dea34d447b6a0ff4e6da8"
+    }
+  },
+  "zeroconf": {
+    "version": "0.152.1",
+    "files": {
+      "COPYING": "73b9e1d4dc992630bbc22b4519f437020446bc8e913d0ad81a3292a79275a251"
+    }
+  },
+  "ifaddr": {
+    "version": "0.2.0",
+    "files": {
+      "LICENSE.txt": "8700856576ae2bc80c63bc970250510d9213fb02fed006d5f22742c9ddde24d7"
+    }
+  },
+  "cffi": {
+    "version": "2.1.1",
+    "files": {
+      "LICENSE": "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63"
+    }
+  },
+  "pycparser": {
+    "version": "3.12",
+    "files": {
+      "LICENSE": "0a9e78156ae8b96caf1b4f11ac2df424b83de29736f9e757630548a6272fdf90"
+    }
+  }
+}

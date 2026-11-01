@@ -1,0 +1,57 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "epub-reader"
+version = "0.1.0"
+description = "Epubify — a quiet, local-first Qt Quick EPUB reader"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+license = "MIT"
+dependencies = [
+  "PySide6==6.12.0",
+  "SQLAlchemy>=2.0.44,<3",
+  "defusedxml==0.7.1",
+  "cryptography>=46,<51",
+  "websockets>=15,<18",
+  "zeroconf>=0.148,<1",
+]
+
+[project.scripts]
+epub-reader = "epub_reader.bootstrap:main"
+
+[dependency-groups]
+dev = ["pytest>=8.4,<10", "pytest-qt>=4.5,<5", "ruff>=0.14,<1", "mypy>=1.18,<2"]
+build = ["nuitka>=2.8,<5", "ordered-set>=4.1,<5", "zstandard>=0.23,<1"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/epub_reader"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"THIRD_PARTY_NOTICES.md" = "epub_reader/resources/THIRD_PARTY_NOTICES.md"
+
+[tool.hatch.build.targets.sdist]
+include = ["src", "tests", "scripts", "docs", "platforms", "uv.lock", "pyproject.toml", "README.md", "LICENSE", "THIRD_PARTY_NOTICES.md", ".python-version"]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+python_version = "3.13"
+strict = true
+files = ["src/epub_reader"]
+
+[[tool.mypy.overrides]]
+module = ["defusedxml.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+qt_api = "pyside6"
+markers = ["gui: loads Qt Quick (offscreen works)"]

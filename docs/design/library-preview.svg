@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="900" viewBox="0 0 1360 900" fill="none">
+  <title>Epubify — exemplo de layout da biblioteca</title>
+  <desc>Conceito de biblioteca desktop com tema escuro, navegação lateral, pesquisa e quatro livros fictícios. As cores e a estrutura seguem a interface QML. Conteúdo meramente ilustrativo.</desc>
+  <defs>
+    <linearGradient id="green" x1="288" y1="292" x2="508" y2="594" gradientUnits="userSpaceOnUse"><stop stop-color="#40564B"/><stop offset="1" stop-color="#233A31"/></linearGradient>
+    <linearGradient id="wine" x1="550" y1="292" x2="770" y2="594" gradientUnits="userSpaceOnUse"><stop stop-color="#765047"/><stop offset="1" stop-color="#482F30"/></linearGradient>
+    <linearGradient id="blue" x1="812" y1="292" x2="1032" y2="594" gradientUnits="userSpaceOnUse"><stop stop-color="#424F69"/><stop offset="1" stop-color="#25314A"/></linearGradient>
+    <linearGradient id="sand" x1="1074" y1="292" x2="1294" y2="594" gradientUnits="userSpaceOnUse"><stop stop-color="#A88B60"/><stop offset="1" stop-color="#75603F"/></linearGradient>
+    <filter id="shadow" x="-25%" y="-15%" width="150%" height="150%"><feDropShadow dx="0" dy="14" stdDeviation="13" flood-color="#000" flood-opacity=".28"/></filter>
+    <clipPath id="window"><rect x="1" y="1" width="1358" height="898" rx="16"/></clipPath>
+    <g id="book-icon" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h4v16H2zM9 3h4v16H9zM16 4l3-1 4 15-3 1z"/></g>
+  </defs>
+  <g clip-path="url(#window)">
+    <rect width="1360" height="900" fill="#101114"/>
+    <rect width="1360" height="36" fill="#15161A"/>
+    <path d="M0 36h1360" stroke="#24262C"/>
+    <text x="680" y="24" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#888A94">Epubify</text>
+    <g stroke="#777A84" stroke-width="1.2"><path d="M1256 18h10M1294 13h9v9h-9M1333 14l8 8m0-8-8 8"/></g>
+    <rect y="37" width="208" height="863" fill="#181A1F"/>
+    <path d="M208 37v863" stroke="#303238"/>
+    <rect x="24" y="68" width="34" height="34" rx="10" fill="#C8A97E"/>
+    <g transform="translate(31 76)" stroke="#241D14" stroke-width="1.5" stroke-linejoin="round"><path d="M0 1c4-1 7 0 10 2 3-2 6-3 10-2v17c-4-1-7 0-10 2-3-2-6-3-10-2zM10 3v17"/></g>
+    <text x="70" y="92" fill="#F2F0EC" font-family="system-ui, sans-serif" font-size="24" font-weight="600" letter-spacing="-.8">epubify</text>
+    <text x="26" y="160" fill="#9A9CA5" font-family="system-ui, sans-serif" font-size="10" font-weight="600" letter-spacing="1.8">SEU ESPAÇO</text>
+    <rect x="16" y="179" width="176" height="44" rx="9" fill="#282A30"/>
+    <rect x="16" y="191" width="3" height="20" rx="1.5" fill="#C8A97E"/>
+    <g transform="translate(30 190) scale(.9)" color="#C8A97E"><use href="#book-icon"/></g>
+    <text x="62" y="207" fill="#F2F0EC" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Todos os livros</text>
+    <text x="175" y="206" text-anchor="end" fill="#9A9CA5" font-family="system-ui, sans-serif" font-size="11">4</text>
+    <text x="27" y="668" fill="#B7B2A8" font-family="Georgia, serif" font-size="19" font-style="italic"><tspan x="27">Um lugar tranquilo</tspan><tspan x="27" dy="27">para boas histórias.</tspan></text>
+    <path d="M25 734h157" stroke="#303238"/>
+    <g stroke="#9A9CA5" stroke-width="1.5"><circle cx="36" cy="768" r="5"/><path d="M36 756v3m0 18v3m-12-12h3m18 0h3m-20-8 2 2m12 12 2 2m-16 0 2-2m12-12 2-2"/></g>
+    <text x="59" y="773" fill="#9A9CA5" font-family="system-ui, sans-serif" font-size="12">Aparência clara</text>
+    <g stroke="#9A9CA5" stroke-width="1.5" stroke-linecap="round"><path d="M26 808h8m-5-5h4m-7 10h6m5-12 7 7-7 7"/></g>
+    <text x="59" y="812" fill="#9A9CA5" font-family="system-ui, sans-serif" font-size="12">Reduzir movimento</text>
+    <g stroke="#9A9CA5" stroke-width="1.4"><rect x="27" y="842" width="18" height="14" rx="2"/><path d="M33 842v14"/></g>
+    <text x="59" y="854" fill="#9A9CA5" font-family="system-ui, sans-serif" font-size="12">Recolher menu</text>
+
+    <text x="256" y="109" fill="#F2F0EC" font-family="Georgia, serif" font-size="36" letter-spacing="-.8">Sua biblioteca</text>
+    <text x="257" y="139" fill="#9A9CA5" font-family="system-ui, sans-serif" font-size="14">Boas histórias. No seu ritmo.</text>
+    <rect x="1132" y="79" width="180" height="42" rx="9" fill="#C8A97E"/>
+    <path d="M1151 100h12m-6-6v12" stroke="#251E15" stroke-width="1.7" stroke-linecap="round"/>
+    <text x="1175" y="105" fill="#251E15" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Importar EPUB</text>
+    <rect x="256" y="175" width="1056" height="46" rx="10" fill="#181A1F" stroke="#303238"/>
+    <g stroke="#858892" stroke-width="1.6"><circle cx="278" cy="196" r="6"/><path d="m283 201 4 4"/></g>
+    <text x="301" y="203" fill="#858892" font-family="system-ui, sans-serif" font-size="13">Buscar por título ou autor…</text>
+    <rect x="1240" y="188" width="55" height="21" rx="4" fill="#22252B" stroke="#303238"/>
+    <text x="1268" y="202" text-anchor="middle" fill="#9A9CA5" font-family="system-ui, sans-serif" font-size="10">Ctrl L</text>
+    <text x="257" y="261" fill="#9A9CA5" font-family="system-ui, sans-serif" font-size="10" font-weight="600" letter-spacing="1.7">PRONTOS PARA A PRÓXIMA PÁGINA</text>
+    <text x="1311" y="261" text-anchor="end" fill="#757883" font-family="system-ui, sans-serif" font-size="11">4 livros</text>
+
+    <rect x="247" y="279" width="250" height="411" rx="16" fill="#181A1F"/>
+    <g filter="url(#shadow)">
+      <rect x="263" y="292" width="218" height="300" rx="5" fill="url(#green)"/>
+      <path d="M268 292v300" stroke="#15241D" stroke-opacity=".6" stroke-width="3"/>
+      <rect x="286" y="316" width="32" height="2" fill="#CFB58D"/>
+      <text x="286" y="356" fill="#EEE9DE" font-family="Georgia, serif" font-size="28"><tspan x="286">O jardim</tspan><tspan x="286" dy="33">das horas</tspan></text>
+      <text x="287" y="416" fill="#C0CABE" font-family="system-ui, sans-serif" font-size="9" letter-spacing="2">CLARA MONTES</text>
+      <g stroke="#B6C1A1" stroke-opacity=".65" stroke-width="1.2"><path d="M374 573V450m0 83c-35-1-48-17-51-34 27 0 45 12 51 34zm0-27c28-3 41-18 43-34-25 1-40 12-43 34zm0-17c-23-3-31-16-32-28 20 1 30 11 32 28z"/><ellipse cx="374" cy="451" rx="9" ry="18"/></g>
+    </g>
+    <text x="264" y="621" fill="#F2F0EC" font-family="system-ui, sans-serif" font-size="14" font-weight="600">O jardim das horas</text>
+    <text x="264" y="643" fill="#9A9CA5" font-family="system-ui, sans-serif" font-size="12">Clara Montes</text>
+    <rect x="264" y="663" width="170" height="3" rx="1.5" fill="#303238"/>
+    <rect x="264" y="663" width="65" height="3" rx="1.5" fill="#C8A97E"/>
+    <text x="480" y="669" text-anchor="end" fill="#C8A97E" font-family="system-ui, sans-serif" font-size="10">38%</text>
+
+    <rect x="535" y="296" width="218" height="300" rx="5" fill="url(#wine)"/>
+    <path d="M540 296v300" stroke="#362025" stroke-opacity=".6" stroke-width="3"/>
+    <circle cx="644" cy="477" r="66" stroke="#C8A184" stroke-opacity=".45"/>
+    <circle cx="644" cy="477" r="48" stroke="#C8A184" stroke-opacity=".35"/>
+    <path d="M578 477h132m-66-66v132" stroke="#C8A184" stroke-opacity=".3"/>
+    <text x="644" y="343" text-anchor="middle" fill="#F2E8DB" font-family="system-ui, sans-serif" font-size="9" letter-spacing="2.5">MIGUEL VALE</text>
+    <text x="644" y="390" text-anchor="middle" fill="#F2E8DB" font-family="Georgia, serif" font-size="30">Entre marés</text>
+    <text x="644" y="568" text-anchor="middle" fill="#D6B8A3" font-family="system-ui, sans-serif" font-size="8" letter-spacing="3">UM ROMANCE</text>
+    <text x="536" y="621" fill="#F2F0EC" font-family="system-ui, sans-serif" font-size="14" font-weight="600">Entre marés</text>
+    <text x="536" y="643" fill="#9A9CA5" font-family="system-ui, sans-serif" font-size="12">Miguel Vale</text>
+    <rect x="536" y="663" width="170" height="3" rx="1.5" fill="#303238"/>
+    <text x="752" y="669" text-anchor="end" fill="#9A9CA5" font-family="system-ui, sans-serif" font-size="10">Novo</text>
+
+    <rect x="807" y="296" width="218" height="300" rx="5" fill="url(#blue)"/>
+    <path d="M812 296v300" stroke="#182238" stroke-opacity=".6" stroke-width="3"/>
+    <g fill="#B8C6D8"><circle cx="837" cy="333" r="1.4"/><circle cx="993" cy="370" r="1.2"/><circle cx="970" cy="320" r="1"/><circle cx="861" cy="487" r="1"/><circle cx="983" cy="525" r="1.3"/><circle cx="919" cy="543" r="1"/></g>
+    <path d="M914 455c33-10 55-39 54-71-18 25-43 31-67 19 0 23 4 39 13 52z" fill="#C9B78F"/>
+    <text x="831" y="363" fill="#E4E9F0" font-family="Georgia, serif" font-size="28"><tspan x="831">Atlas do</tspan><tspan x="831" dy="33">silêncio</tspan></text>
+    <path d="M831 553h169" stroke="#8A9BB7" stroke-opacity=".4"/>
+    <text x="831" y="576" fill="#C6CEDD" font-family="system-ui, sans-serif" font-size="9" letter-spacing="2">HELENA RIOS</text>
+    <text x="808" y="621" fill="#F2F0EC" font-family="system-ui, sans-serif" font-size="14" font-weight="600">Atlas do silêncio</text>
+    <text x="808" y="643" fill="#9A9CA5" font-family="system-ui, sans-serif" font-size="12">Helena Rios</text>
+    <rect x="808" y="663" width="170" height="3" rx="1.5" fill="#303238"/>
+    <rect x="808" y="663" width="20" height="3" rx="1.5" fill="#C8A97E"/>
+    <text x="1024" y="669" text-anchor="end" fill="#9A9CA5" font-family="system-ui, sans-serif" font-size="10">12%</text>
+
+    <rect x="1079" y="296" width="218" height="300" rx="5" fill="url(#sand)"/>
+    <path d="M1084 296v300" stroke="#655030" stroke-opacity=".6" stroke-width="3"/>
+    <rect x="1101" y="319" width="174" height="254" rx="2" stroke="#E5D5AE" stroke-opacity=".45"/>
+    <text x="1188" y="354" text-anchor="middle" fill="#F2E8D2" font-family="system-ui, sans-serif" font-size="8" letter-spacing="2">TOMÁS SERRA</text>
+    <text x="1188" y="410" text-anchor="middle" fill="#FFF4DD" font-family="Georgia, serif" font-size="30"><tspan x="1188">A arte de</tspan><tspan x="1188" dy="37">demorar</tspan></text>
+    <path d="M1140 503c24-27 72-27 96 0m-96 9c24-27 72-27 96 0m-96 9c24-27 72-27 96 0" stroke="#E5D5AE" stroke-opacity=".7"/>
+    <text x="1188" y="552" text-anchor="middle" fill="#E5D5AE" font-family="system-ui, sans-serif" font-size="8" letter-spacing="2">NOTAS SOBRE O TEMPO</text>
+    <text x="1080" y="621" fill="#F2F0EC" font-family="system-ui, sans-serif" font-size="14" font-weight="600">A arte de demorar</text>
+    <text x="1080" y="643" fill="#9A9CA5" font-family="system-ui, sans-serif" font-size="12">Tomás Serra</text>
+    <rect x="1080" y="663" width="170" height="3" rx="1.5" fill="#303238"/>
+    <text x="1296" y="669" text-anchor="end" fill="#9A9CA5" font-family="system-ui, sans-serif" font-size="10">Novo</text>
+
+    <path d="M256 824h1056" stroke="#24262C"/>
+    <circle cx="262" cy="851" r="3" fill="#98B29B"/>
+    <text x="275" y="855" fill="#777A84" font-family="system-ui, sans-serif" font-size="11">Seus livros ficam neste dispositivo.</text>
+    <text x="1311" y="855" text-anchor="end" fill="#777A84" font-family="system-ui, sans-serif" font-size="11">Ctrl O  importar   ·   Ctrl L  buscar</text>
+  </g>
+  <rect x=".5" y=".5" width="1359" height="899" rx="16" stroke="#303238"/>
+</svg>

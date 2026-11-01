@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "id": "parchment",
+  "name": "Parchment",
+  "colors": {
+    "parchment": "#EDEDE9",
+    "dust_grey": "#D6CCC2",
+    "linen": "#F5EBE0",
+    "powder_petal": "#E3D5CA",
+    "almond_silk": "#D5BDAF",
+    "charcoal": "#24211F",
+    "dark_surface": "#302B27",
+    "dark_elevated": "#403832",
+    "dark_border": "#67594F",
+    "muted_linen": "#CCBDB1",
+    "ink": "#342C26",
+    "muted_ink": "#584A40",
+    "brown": "#715443",
+    "light_border": "#B4A497",
+    "dark_error": "#5B3E3A",
+    "light_error_text": "#F1D1C7",
+    "error_ink": "#743F35",
+    "light_error": "#F0DCD5",
+    "sepia": "#E9D9C9",
+    "sepia_ink": "#49372A",
+    "slate": "#342C27"
+  },
+  "dark": {
+    "background": "{charcoal}",
+    "surface": "{dark_surface}",
+    "elevated": "{dark_elevated}",
+    "text": "{linen}",
+    "secondary": "{muted_linen}",
+    "accent": "{almond_silk}",
+    "accent_text": "{charcoal}",
+    "border": "{dark_border}",
+    "action": "{brown}",
+    "on_action": "{linen}",
+    "error_surface": "{dark_error}",
+    "error": "{light_error_text}"
+  },
+  "light": {
+    "background": "{parchment}",
+    "surface": "{linen}",
+    "elevated": "{powder_petal}",
+    "text": "{ink}",
+    "secondary": "{muted_ink}",
+    "accent": "{brown}",
+    "accent_text": "{linen}",
+    "border": "{light_border}",
+    "action": "{brown}",
+    "on_action": "{linen}",
+    "error_surface": "{light_error}",
+    "error": "{error_ink}"
+  },
+  "covers": {
+    "backgrounds": [
+      "{parchment}",
+      "{dust_grey}",
+      "{linen}",
+      "{powder_petal}",
+      "{almond_silk}"
+    ],
+    "text": "{ink}",
+    "secondary": "{muted_ink}"
+  },
+  "reading": {
+    "paper": {
+      "background": "{linen}",
+      "foreground": "{ink}",
+      "accent": "{brown}"
+    },
+    "sepia": {
+      "background": "{sepia}",
+      "foreground": "{sepia_ink}",
+      "accent": "{brown}"
+    },
+    "slate": {
+      "background": "{slate}",
+      "foreground": "{linen}",
+      "accent": "{almond_silk}"
+    }
+  }
+}

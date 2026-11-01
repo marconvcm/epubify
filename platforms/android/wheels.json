@@ -1,0 +1,24 @@
+{
+  "version": "6.12.0",
+  "source": "https://download.qt.io/official_releases/QtForPython/",
+  "aarch64": {
+    "pyside6": {
+      "filename": "pyside6-6.12.0-6.12.0-cp310-abi3-android_aarch64.whl",
+      "sha256": "2cb8352ae6cd091c9f5e11d7bc4ba3bf54088548f63cd804adfdffe5c97c5eb2"
+    },
+    "shiboken6": {
+      "filename": "shiboken6-6.12.0-6.12.0-cp310-abi3-android_aarch64.whl",
+      "sha256": "dc5dc4ca86c88327575a9d338c678a8f81f859a25a4dc0e6a539e465ab881660"
+    }
+  },
+  "x86_64": {
+    "pyside6": {
+      "filename": "pyside6-6.12.0-6.12.0-cp310-abi3-android_x86_64.whl",
+      "sha256": "4f5cbfe5e0043aa027a322ff9e3881e705ed6f7d18e04ff2a430e7eeb5f44246"
+    },
+    "shiboken6": {
+      "filename": "shiboken6-6.12.0-6.12.0-cp310-abi3-android_x86_64.whl",
+      "sha256": "8d5c45ecb0d86e77e9003f3a8e0589bc97fa206d523f2ee4c342fdf68806f02e"
+    }
+  }
+}

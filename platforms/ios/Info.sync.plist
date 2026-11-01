@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>NSLocalNetworkUsageDescription</key>
+  <string>Epubify connects to your paired devices on the local network to sync books and reading data without a cloud service.</string>
+  <key>NSBonjourServices</key><array><string>_epubify._tcp</string></array>
+</dict></plist>

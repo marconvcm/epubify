@@ -1,0 +1,18 @@
+[
+  {"id":"robotics","name":"Robotics","terms":["robotics","robotica","robot","robots","robos","ros","ros2","ros 2","robot operating system"]},
+  {"id":"automation","name":"PLC & Automation","terms":["plc","plcs","clp","clps","industrial automation","automacao industrial","siemens","tia portal","scada","hmi","programmable logic controller","controlador logico programavel"]},
+  {"id":"electronics","name":"Electronics","terms":["electronics","eletronica","arduino","raspberry pi","microcontroller","microcontrollers","microcontroladores","circuits","circuitos","esp32","embedded systems","sistemas embarcados"]},
+  {"id":"ai","name":"AI & Machine Learning","terms":["artificial intelligence","inteligencia artificial","machine learning","aprendizado de maquina","deep learning","neural networks","redes neurais"]},
+  {"id":"programming","name":"Programming","terms":["programming","programacao","software development","desenvolvimento de software","coding","python","javascript","typescript","rust","java","c++","c#","web development"]},
+  {"id":"computing","name":"Computing","terms":["computer science","ciencia da computacao","algorithms","algoritmos","data structures","estruturas de dados","computer networks","redes de computadores","cybersecurity","ciberseguranca","linux","operating systems","sistemas operacionais"]},
+  {"id":"mathematics","name":"Mathematics","terms":["mathematics","matematica","calculus","calculo","algebra","geometry","geometria","statistics","estatistica"]},
+  {"id":"science","name":"Science","terms":["physics","fisica","chemistry","quimica","biology","biologia","astronomy","astronomia","astronomy","biotechnology","biotecnologia"]},
+  {"id":"business","name":"Business & Finance","terms":["business","negocios","finance","financas","investing","investimentos","economics","economia","entrepreneurship","empreendedorismo"]},
+  {"id":"history","name":"History","terms":["history","historia","historical","historico","archaeology","arqueologia"]},
+  {"id":"fiction","name":"Fiction","terms":["fiction","ficcao","novel","romance","fantasy","fantasia","science fiction","ficcao cientifica","short stories","contos"]},
+  {"id":"biography","name":"Biography","terms":["biography","biografia","autobiography","autobiografia","memoir","memoirs","memorias"]},
+  {"id":"design","name":"Art & Design","terms":["design","typography","tipografia","graphic design","design grafico","photography","fotografia","painting","pintura"]},
+  {"id":"health","name":"Health & Wellbeing","terms":["medicine","medicina","health","saude","nutrition","nutricao","fitness","mental health","saude mental"]},
+  {"id":"personal-growth","name":"Personal Growth","terms":["self help","autoajuda","personal development","desenvolvimento pessoal","productivity","produtividade","habits","habitos"]},
+  {"id":"languages","name":"Languages","terms":["language learning","ensino de idiomas","grammar","gramatica","dictionary","dicionario","linguistics","linguistica"]}
+]

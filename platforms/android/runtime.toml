@@ -1,0 +1,19 @@
+# Android runtime pins are reviewed separately from the desktop uv.lock.
+# This is a build input, not a claim that an APK has passed device acceptance.
+[toolchain]
+p4a_commit = "58d21141f17c889bf8585f5665921d72028f8831"
+qt = "6.12.0"
+min_api = 28
+target_api = 35
+
+[runtime]
+defusedxml = "0.7.1"
+sqlalchemy = "2.1.6"
+typing-extensions = "4.16.0"
+cffi = "2.1.1"
+cryptography = "50.0.2"
+ifaddr = "0.2.0"
+pycparser = "3.12"
+websockets = "17.4"
+zeroconf = "0.152.1"
+

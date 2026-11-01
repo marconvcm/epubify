@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "id": "windows",
+  "name": "Windows",
+  "colors": {
+    "blue": "#0067C0",
+    "blue_light": "#8BBFFF"
+  },
+  "dark": {
+    "background": "#202020",
+    "surface": "#2B2B2B",
+    "elevated": "#383838",
+    "text": "#F3F3F3",
+    "secondary": "#C6C6C6",
+    "accent": "{blue_light}",
+    "accent_text": "#202020",
+    "border": "#5E5E5E",
+    "action": "{blue}",
+    "on_action": "#FFFFFF",
+    "error_surface": "#5F2828",
+    "error": "#FFDAD6"
+  },
+  "light": {
+    "background": "#F3F3F3",
+    "surface": "#FFFFFF",
+    "elevated": "#E8E8E8",
+    "text": "#1B1B1B",
+    "secondary": "#5A5A5A",
+    "accent": "#005A9E",
+    "accent_text": "#FFFFFF",
+    "border": "#C6C6C6",
+    "action": "{blue}",
+    "on_action": "#FFFFFF",
+    "error_surface": "#FFE9E5",
+    "error": "#8A2020"
+  },
+  "covers": {
+    "backgrounds": [
+      "#D9E9F7",
+      "#DEE9DF",
+      "#E7E1F2",
+      "#F1E3D7",
+      "#E5E5E5"
+    ],
+    "text": "#1B1B1B",
+    "secondary": "#505050"
+  },
+  "reading": {
+    "paper": {
+      "background": "#FAFAFA",
+      "foreground": "#1B1B1B",
+      "accent": "#005A9E"
+    },
+    "sepia": {
+      "background": "#F1E4D3",
+      "foreground": "#3E3427",
+      "accent": "#67502F"
+    },
+    "slate": {
+      "background": "#202A35",
+      "foreground": "#EFF6FF",
+      "accent": "#8BBFFF"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "id": "macos",
+  "name": "macOS",
+  "colors": {
+    "blue": "#005EC7",
+    "blue_light": "#82B5FF"
+  },
+  "dark": {
+    "background": "#1C1C1E",
+    "surface": "#2C2C2E",
+    "elevated": "#3A3A3C",
+    "text": "#F5F5F7",
+    "secondary": "#CBCBD0",
+    "accent": "{blue_light}",
+    "accent_text": "#1C1C1E",
+    "border": "#57575D",
+    "action": "{blue}",
+    "on_action": "#FFFFFF",
+    "error_surface": "#5D2B2B",
+    "error": "#FFDAD6"
+  },
+  "light": {
+    "background": "#F2F2F7",
+    "surface": "#FFFFFF",
+    "elevated": "#E5E5EA",
+    "text": "#1C1C1E",
+    "secondary": "#5E5E65",
+    "accent": "{blue}",
+    "accent_text": "#FFFFFF",
+    "border": "#C5C5CB",
+    "action": "{blue}",
+    "on_action": "#FFFFFF",
+    "error_surface": "#FFE8E3",
+    "error": "#8A2020"
+  },
+  "covers": {
+    "backgrounds": [
+      "#D6E8FF",
+      "#DEEEDC",
+      "#E9DDF3",
+      "#F3DCD3",
+      "#E6E6EB"
+    ],
+    "text": "#1C1C1E",
+    "secondary": "#55555D"
+  },
+  "reading": {
+    "paper": {
+      "background": "#FBFAF7",
+      "foreground": "#1C1C1E",
+      "accent": "#0065D8"
+    },
+    "sepia": {
+      "background": "#F0E2CD",
+      "foreground": "#48392E",
+      "accent": "#6B4B2F"
+    },
+    "slate": {
+      "background": "#24262C",
+      "foreground": "#F5F5F7",
+      "accent": "#82B5FF"
+    }
+  }
+}

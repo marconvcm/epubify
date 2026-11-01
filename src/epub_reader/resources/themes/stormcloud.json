@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "id": "stormcloud",
+  "name": "Stormcloud",
+  "colors": {
+    "stormcloud": "#556963",
+    "dark_slate_gray": "#304D4C",
+    "ebony_clay": "#232B3D",
+    "phosphorus": "#66413A",
+    "brown": "#805A42",
+    "ink": "#F1F3EF",
+    "muted_ink": "#E0E6DF",
+    "paper": "#F1F0E9",
+    "raised_green": "#3C5551",
+    "muted_green": "#C3CEC8",
+    "warm_accent": "#DCBFA9",
+    "pale_surface": "#FCFCF7",
+    "pale_green": "#DDE4DD",
+    "light_border": "#B6C3BB",
+    "pale_error": "#F1DFD9",
+    "light_error_text": "#F4CEC6",
+    "sepia": "#E5D8C7",
+    "sepia_ink": "#47342A"
+  },
+  "dark": {
+    "background": "{ebony_clay}",
+    "surface": "{dark_slate_gray}",
+    "elevated": "{raised_green}",
+    "text": "{ink}",
+    "secondary": "{muted_green}",
+    "accent": "{warm_accent}",
+    "accent_text": "{ebony_clay}",
+    "border": "{stormcloud}",
+    "action": "{brown}",
+    "on_action": "{ink}",
+    "error_surface": "{phosphorus}",
+    "error": "{light_error_text}"
+  },
+  "light": {
+    "background": "{paper}",
+    "surface": "{pale_surface}",
+    "elevated": "{pale_green}",
+    "text": "{ebony_clay}",
+    "secondary": "{stormcloud}",
+    "accent": "{brown}",
+    "accent_text": "{ink}",
+    "border": "{light_border}",
+    "action": "{brown}",
+    "on_action": "{ink}",
+    "error_surface": "{pale_error}",
+    "error": "{phosphorus}"
+  },
+  "covers": {
+    "backgrounds": ["{stormcloud}", "{dark_slate_gray}", "{ebony_clay}", "{phosphorus}", "{brown}"],
+    "text": "{ink}",
+    "secondary": "{muted_ink}"
+  },
+  "reading": {
+    "paper": {"background": "{paper}", "foreground": "{ebony_clay}", "accent": "{brown}"},
+    "sepia": {"background": "{sepia}", "foreground": "{sepia_ink}", "accent": "{phosphorus}"},
+    "slate": {"background": "{dark_slate_gray}", "foreground": "{ink}", "accent": "{warm_accent}"}
+  }
+}
